@@ -295,7 +295,7 @@
    height: 50vh;
 }
 
-.content h1{
+.Homecontent h1{
     margin-left:  50%;
     color:  #F4EADF;
     text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
@@ -308,7 +308,7 @@
     font-size:xx-large;
     
 }
-.content h2{
+.Homecontent h2{
     margin-left:  50%;
     color:  #F4EADF;
     text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
@@ -321,7 +321,7 @@
 }
 
 
-.content h3{
+.Homecontent h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50% ;
     color:#FFFFFF;
@@ -330,7 +330,7 @@
     bottom: 50%;
 }
 
-.content a {
+.Homecontent a {
 
     text-decoration: none ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -346,7 +346,83 @@
     background-color: #F4EADF;
     
 }   
+.content1 h1{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+    
+}
+.content1 h2{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content1 h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 60%;
+}
 
+
+    
+#PB{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+}  
+#PBtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 60%;
+    
+}
+#PI{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+}  
+#PItext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 20%;
+    top: 60%;
+}
 .footer{
     background-color: #0B2B5B;
     background-repeat: no-repeat;
