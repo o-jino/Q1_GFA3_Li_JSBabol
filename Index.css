@@ -378,20 +378,28 @@
     position: absolute;
     bottom: 60%;
 }
-
+#intromain{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 80%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:xx-large;
+    font-size: xx-large;
+}
 
     
 #PB{
     margin-left:  10%;
     color:  #F4EADF;
-    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
-    
     position:absolute;
     bottom: 70%;
     left: 0px;
     right: 0px;
     margin-top: 20%;
-    font-size:xx-large;
+    font-size:x-large;
 }  
 #PBtext{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -405,14 +413,12 @@
 #PI{
     margin-left:  10%;
     color:  #F4EADF;
-    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
-    
     position:absolute;
     bottom: 40%;
     left: 0px;
     right: 0px;
     margin-top: 20%;
-    font-size:xx-large;
+    font-size:x-large;
 }  
 #PItext{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
