@@ -169,7 +169,7 @@
     background-color: #F4EADF;
 }
 
-#Homepagetext{
+#Homepagetext{/*This ID is to mae sure that when after you click the home page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
@@ -188,7 +188,7 @@
     background-color: #F4EADF;
 }
 
-#Intropagetext{
+#Intropagetext{/*This ID is to make sure that when after you click the Intro page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
@@ -207,7 +207,7 @@
     background-color: #F4EADF;
 
 }
-#Aboutpagetext{
+#Aboutpagetext{/*This ID is to make sure that when after you click the about page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
@@ -227,7 +227,7 @@
     
 
 }
-#Datapagetext{
+#Datapagetext{/*This ID is to make sure that when after you click the data page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
@@ -245,7 +245,7 @@
     border-radius: 30px;
     background-color: #F4EADF;
 }
-#Sourcespagetext{
+#Sourcespagetext{/*This ID is to make sure that when after you click the sources page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
     text-decoration: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
@@ -263,8 +263,7 @@
     border-radius: 30px;
     background-color: #F4EADF;
 }  
-.banner
-{
+.banner{/*to apply a background image in the main body/content area*/
     background-image: url(images/Background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -293,6 +292,33 @@
    border-radius: 70%;
    width: 30vw;
    height: 50vh;
+}
+#About-image{
+    margin-left: 7%;
+    margin-right: 80%;
+    margin-top: 5%;
+   text-align: center;
+   padding: 5px;
+   border-radius: 70%;
+   width: 25vw;
+   height: 45vh;
+}
+#Namebox{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 70%;
+    bottom: 30%;
+    color:#FFFFFF;
+    font-size:x-large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 2%;
+    border-radius: 0px;
+    background-color: #0B2B5B;
+
 }
 
 .Homecontent h1{
@@ -327,7 +353,7 @@
     color:#FFFFFF;
     margin-right: 10%;
     position: absolute;
-    bottom: 50%;
+    bottom: 48%;
 }
 
 .Homecontent a {
@@ -346,7 +372,7 @@
     background-color: #F4EADF;
     
 }   
-.content1 h1{
+.Introcontent h1{
     margin-left:  10%;
     color:  #F4EADF;
     text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
@@ -359,7 +385,40 @@
     font-size:xx-large;
     
 }
-.content1 h2{
+.Introcontent h2{
+    margin-left:  50%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Introcontent h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50%;
+}
+   
+.Aboutcontent h1{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+    
+}
+.Aboutcontent h2{
     margin-left:  10%;
     color:  #F4EADF;
     text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
@@ -370,13 +429,13 @@
     margin-top: 65%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.content1 h3{
+.Aboutcontent h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10% ;
+    margin-left: 50% ;
     color:#FFFFFF;
     margin-right: 10%;
     position: absolute;
-    bottom: 60%;
+    bottom: 50%;
 }
 #intromain{
     margin-left:  40%;
@@ -389,35 +448,83 @@
     font-size:xx-large;
     font-size: xx-large;
 }
-
-    
-#PB{
-    margin-left:  10%;
+#Aboutmain{
+    margin-left:  43%;
     color:  #F4EADF;
     position:absolute;
-    bottom: 70%;
+    bottom: 80%;
     left: 0px;
     right: 0px;
-    margin-top: 20%;
-    font-size:x-large;
-}  
+    margin-top: 10%;
+    font-size:xx-large;
+    font-size: xx-large;
+}   
+
+/*ABOUT PAGE CONTENT IDS*/  
 #PBtext{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10% ;
+    margin-left: 40% ;
     color:#FFFFFF;
     margin-right: 10%;
     position: absolute;
     bottom: 60%;
-    
 }
+#PB{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 73%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}  
+#FAMtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 40%;
+}
+#FAM{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 53%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}
+#ODtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 20%;
+} 
+#OD{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 33%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}  
+
+/*INTRODUCTION PAGE CONTENT IDS*/
 #PI{
     margin-left:  10%;
     color:  #F4EADF;
     position:absolute;
-    bottom: 40%;
+    bottom: 71%;
     left: 0px;
     right: 0px;
-    margin-top: 20%;
+    margin-top: 30%;
     font-size:x-large;
 }  
 #PItext{
@@ -426,7 +533,26 @@
     color:#FFFFFF;
     margin-right: 10%;
     position: absolute;
-    bottom: 20%;
+    bottom: 50%;  
+}
+
+#PP{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 42%;
+    left: 0px;
+    right: 0px;
+    margin-top: 50%;
+    font-size:x-large;
+}  
+#PPtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#ffffff;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 30%;
     top: 60%;
 }
 .footer{
